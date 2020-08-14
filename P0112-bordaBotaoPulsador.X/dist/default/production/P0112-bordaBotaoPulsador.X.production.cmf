@@ -1,0 +1,439 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$/tmp/xcXUSbmUH.obj
+end_init CODE 0 0 0 3 2
+config CONFIG 0 2007 2007 1 2
+$dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+cinit CODE 0 7ED 7ED 13 2
+text1 CODE 0 653 653 3B 2
+text2 CODE 0 619 619 12 2
+text3 CODE 0 734 734 59 2
+text4 CODE 0 68E 68E 4D 2
+text5 CODE 0 6DB 6DB 59 2
+text6 CODE 0 5F3 5F3 5 2
+text7 CODE 0 63F 63F 14 2
+text8 CODE 0 62B 62B 14 2
+maintext CODE 0 78D 78D 60 2
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK0 BANK0 1 30 30 C 1
+inittext CODE 0 608 608 11 2
+bssBANK0 BANK0 1 3C 3C 3 1
+idataBANK0 CODE 0 5F8 5F8 10 2
+dataBANK0 BANK0 1 20 20 10 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 3F-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 3F-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 3-5F2 2
+CONST 800-1FFF 2
+ENTRY 3-5F2 2
+ENTRY 800-1FFF 2
+IDLOC 2000-2003 2
+STACK 110-16F 1
+CODE 3-5F2 2
+CODE 800-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+CONFIG 2008-2008 2
+EEDATA 2100-21FF 2
+STRCODE 3-5F2 2
+STRCODE 800-1FFF 2
+STRING 3-5F2 2
+STRING 800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+7ED cinit CODE >712:/tmp/xcXGCxqeR
+7ED cinit CODE >715:/tmp/xcXGCxqeR
+7ED cinit CODE >768:/tmp/xcXGCxqeR
+7EE cinit CODE >769:/tmp/xcXGCxqeR
+7EF cinit CODE >770:/tmp/xcXGCxqeR
+7F0 cinit CODE >771:/tmp/xcXGCxqeR
+7F1 cinit CODE >772:/tmp/xcXGCxqeR
+7F2 cinit CODE >773:/tmp/xcXGCxqeR
+7F3 cinit CODE >774:/tmp/xcXGCxqeR
+7F4 cinit CODE >775:/tmp/xcXGCxqeR
+7F5 cinit CODE >776:/tmp/xcXGCxqeR
+7F6 cinit CODE >777:/tmp/xcXGCxqeR
+7F9 cinit CODE >781:/tmp/xcXGCxqeR
+7FA cinit CODE >782:/tmp/xcXGCxqeR
+7FB cinit CODE >783:/tmp/xcXGCxqeR
+7FC cinit CODE >789:/tmp/xcXGCxqeR
+7FC cinit CODE >791:/tmp/xcXGCxqeR
+7FD cinit CODE >792:/tmp/xcXGCxqeR
+62B text8 CODE >46:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+62B text8 CODE >51:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+639 text8 CODE >52:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+63D text8 CODE >53:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+63F text7 CODE >75:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+63F text7 CODE >80:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+64D text7 CODE >81:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+651 text7 CODE >82:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+5F3 text6 CODE >22:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+5F3 text6 CODE >24:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+5F6 text6 CODE >25:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+5F7 text6 CODE >26:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+6DB text5 CODE >6:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6DB text5 CODE >14:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6DC text5 CODE >15:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6DE text5 CODE >16:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6E3 text5 CODE >17:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6E5 text5 CODE >19:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6E7 text5 CODE >20:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6EC text5 CODE >21:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6F0 text5 CODE >23:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6F2 text5 CODE >24:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6F6 text5 CODE >25:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6F8 text5 CODE >26:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+6FA text5 CODE >27:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+701 text5 CODE >28:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+705 text5 CODE >26:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+706 text5 CODE >31:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+70D text5 CODE >32:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+715 text5 CODE >33:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+71B text5 CODE >34:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+71C text5 CODE >36:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+723 text5 CODE >37:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+727 text5 CODE >39:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+72A text5 CODE >40:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+72F text5 CODE >41:/opt/microchip/xc8/v1.45/sources/common/awdiv.c
+68E text4 CODE >6:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+68E text4 CODE >13:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+691 text4 CODE >14:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+693 text4 CODE >15:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+698 text4 CODE >16:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+69A text4 CODE >18:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+69C text4 CODE >19:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6A1 text4 CODE >20:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6A5 text4 CODE >21:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6A7 text4 CODE >22:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6A9 text4 CODE >23:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6B0 text4 CODE >24:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6B4 text4 CODE >22:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6B5 text4 CODE >27:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6BD text4 CODE >28:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6C3 text4 CODE >29:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6CA text4 CODE >30:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6CE text4 CODE >32:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6D1 text4 CODE >33:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+6D6 text4 CODE >34:/opt/microchip/xc8/v1.45/sources/common/awmod.c
+734 text3 CODE >57:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+737 text3 CODE >59:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+738 text3 CODE >61:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+738 text3 CODE >62:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+739 text3 CODE >63:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+751 text3 CODE >64:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+752 text3 CODE >65:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+753 text3 CODE >67:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+753 text3 CODE >68:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+754 text3 CODE >69:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+779 text3 CODE >70:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+77A text3 CODE >72:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+77B text3 CODE >59:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+783 text3 CODE >73:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+78C text3 CODE >74:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+619 text2 CODE >10:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/delay.c
+619 text2 CODE >12:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/delay.c
+61D text2 CODE >14:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/delay.c
+624 text2 CODE >15:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/delay.c
+62A text2 CODE >12:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/delay.c
+653 text1 CODE >41:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+653 text1 CODE >43:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+656 text1 CODE >44:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+659 text1 CODE >45:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+65A text1 CODE >46:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+65B text1 CODE >48:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+65E text1 CODE >49:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+65F text1 CODE >50:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+66A text1 CODE >51:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+676 text1 CODE >52:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+683 text1 CODE >53:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+68D text1 CODE >54:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+78D maintext CODE >31:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+78D maintext CODE >33:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+790 maintext CODE >35:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+795 maintext CODE >36:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+79A maintext CODE >40:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+7A2 maintext CODE >42:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+7AA maintext CODE >43:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+7C6 maintext CODE >44:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+7CE maintext CODE >45:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+7E3 maintext CODE >47:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+7EC maintext CODE >38:/home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+608 inittext CODE >742:/tmp/xcXGCxqeR
+608 inittext CODE >743:/tmp/xcXGCxqeR
+609 inittext CODE >744:/tmp/xcXGCxqeR
+60A inittext CODE >745:/tmp/xcXGCxqeR
+60B inittext CODE >746:/tmp/xcXGCxqeR
+60C inittext CODE >753:/tmp/xcXGCxqeR
+60C inittext CODE >754:/tmp/xcXGCxqeR
+60F inittext CODE >755:/tmp/xcXGCxqeR
+610 inittext CODE >756:/tmp/xcXGCxqeR
+611 inittext CODE >757:/tmp/xcXGCxqeR
+612 inittext CODE >758:/tmp/xcXGCxqeR
+613 inittext CODE >759:/tmp/xcXGCxqeR
+614 inittext CODE >760:/tmp/xcXGCxqeR
+615 inittext CODE >761:/tmp/xcXGCxqeR
+616 inittext CODE >762:/tmp/xcXGCxqeR
+617 inittext CODE >763:/tmp/xcXGCxqeR
+618 inittext CODE >764:/tmp/xcXGCxqeR
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__end_of_b0_bordaDescida C7E 0 CODE 0 text8 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Hspace_0 2008 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+delay@t 70 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__size_of_disp7segX2_init 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+___sp 0 0 STACK 2 stack /tmp/xcXUSbmUH.obj
+_main F1A 0 CODE 0 maintext dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+btemp 7E 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+start 0 0 CODE 0 init /tmp/xcXUSbmUH.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__size_of___awmod 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__Hpowerup 0 0 CODE 0 powerup -
+_disp7segX2 E68 0 CODE 0 text3 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+___awmod@sign 31 0 BANK0 1 cstackBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_b0_bordaDescida C56 0 CODE 0 text8 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+intlevel0 0 0 ENTRY 0 functab /tmp/xcXUSbmUH.obj
+intlevel1 0 0 ENTRY 0 functab /tmp/xcXUSbmUH.obj
+intlevel2 0 0 ENTRY 0 functab /tmp/xcXUSbmUH.obj
+intlevel3 0 0 ENTRY 0 functab /tmp/xcXUSbmUH.obj
+intlevel4 0 0 ENTRY 0 functab /tmp/xcXUSbmUH.obj
+intlevel5 0 0 ENTRY 0 functab /tmp/xcXUSbmUH.obj
+wtemp0 7E 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_b1_bordaSubida C7E 0 CODE 0 text7 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Hfunctab 0 0 ENTRY 0 functab -
+__size_of_botao_init 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+_ANSELH 189 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+main@num 3B 0 BANK0 1 cstackBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Lmaintext 0 0 ABS 0 maintext -
+__end_of_disp7segX2 F1A 0 CODE 0 text3 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__end_of___awdiv E68 0 CODE 0 text5 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__end_of___awmod DB6 0 CODE 0 text4 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__end_of_b1_bordaSubida CA6 0 CODE 0 text7 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+disp7segX2@num 34 0 BANK0 1 cstackBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__size_of_delay 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_b1_bordaSubida$122 72 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__size_of_b0_bordaDescida 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+start_initialization FDA 0 CODE 0 cinit dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_TRISDbits 88 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__pcstackBANK0 30 0 BANK0 1 cstackBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+___int_sp 0 0 STACK 2 stack /tmp/xcXUSbmUH.obj
+_b1Anterior 3D 0 BANK0 1 bssBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__Hstack 0 0 STACK 2 stack -
+__Hmaintext 0 0 ABS 0 maintext -
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 0 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit FDA 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lstack 0 0 STACK 2 stack -
+__Linittext 0 0 ABS 0 inittext -
+_PORTBbits 6 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_PORTDbits 8 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__S0 2008 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__CFG_FOSC$INTRC_NOCLKOUT 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__size_of_disp7segX2 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Lintentry 0 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcXUSbmUH.obj
+__pdataBANK0 20 0 BANK0 1 dataBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+___awmod@counter 30 0 BANK0 1 cstackBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+___awdiv DB6 0 CODE 0 text5 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+___awmod D1C 0 CODE 0 text4 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__pmaintext F1A 0 CODE 0 maintext dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 400E 0 CONFIG 0 config -
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Hinittext 0 0 ABS 0 inittext -
+b0_bordaDescida@aux 71 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+stackhi 0 0 ABS 0 - /tmp/xcXUSbmUH.obj
+stacklo 0 0 ABS 0 - /tmp/xcXUSbmUH.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__size_of_b1_bordaSubida 0 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+init_fetch0 C10 0 CODE 0 inittext dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__Lend_init 0 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_botao_init BE6 0 CODE 0 text6 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__end_of_disp7segX2_init D1C 0 CODE 0 text1 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Hintentry 0 0 CODE 0 intentry -
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+?___awdiv 70 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+?___awmod 79 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+___awmod@dividend 7B 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__ptext1 CA6 0 CODE 0 text1 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__ptext2 C32 0 CODE 0 text2 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__ptext3 E68 0 CODE 0 text3 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__ptext4 D1C 0 CODE 0 text4 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__ptext5 DB6 0 CODE 0 text5 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__ptext6 BE6 0 CODE 0 text6 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__ptext7 C7E 0 CODE 0 text7 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__ptext8 C56 0 CODE 0 text8 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+___awmod@divisor 79 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Lfunctab 0 0 ENTRY 0 functab -
+b1_bordaSubida@aux 71 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_disp7segX2_init CA6 0 CODE 0 text1 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__pidataBANK0 BF0 0 CODE 0 idataBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__end_of_botao_init BF0 0 CODE 0 text6 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+_b0_bordaDescida$114 72 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_posicao 3C 0 BANK0 1 bssBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Hend_init 6 0 CODE 0 end_init -
+init_ram0 C18 0 CODE 0 inittext dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__end_of_main FDA 0 CODE 0 maintext dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__end_of_delay C56 0 CODE 0 text2 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_PORTB 6 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_TRISB 86 0 ABS 0 - dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_main$188 39 0 BANK0 1 cstackBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_delay C32 0 CODE 0 text2 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+_b0Anterior 3E 0 BANK0 1 bssBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__initialization FDA 0 CODE 0 cinit dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+_digitos7seg 20 0 BANK0 1 dataBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+__pbssBANK0 3C 0 BANK0 1 bssBANK0 dist/default/production/P0112-bordaBotaoPulsador.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7ED FDA 13 2
+text1 0 653 CA6 3B 2
+text2 0 619 C32 12 2
+text3 0 734 E68 59 2
+text4 0 68E D1C 4D 2
+text5 0 6DB DB6 59 2
+text6 0 5F3 BE6 5 2
+text7 0 63F C7E 14 2
+text8 0 62B C56 14 2
+maintext 0 78D F1A 60 2
+cstackCOMMON 1 70 70 E 1
+inittext 0 608 C10 11 2
+reset_vec 0 0 0 3 2
+idataBANK0 0 5F8 BF0 10 2
+dataBANK0 1 20 20 1F 1
+config 0 2007 400E 1 2

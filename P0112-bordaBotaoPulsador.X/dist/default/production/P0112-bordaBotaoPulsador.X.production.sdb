@@ -1,0 +1,150 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"6 /opt/microchip/xc8/v1.45/sources/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 /opt/microchip/xc8/v1.45/sources/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"62 /opt/microchip/xc8/v1.45/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.45/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 /opt/microchip/xc8/v1.45/sources/pic/eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"22 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+[v _botao_init botao_init `(v  1 e 1 0 ]
+"46
+[v _b0_bordaDescida b0_bordaDescida `(uc  1 e 1 0 ]
+"75
+[v _b1_bordaSubida b1_bordaSubida `(uc  1 e 1 0 ]
+"10 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/delay.c
+[v _delay delay `(v  1 e 1 0 ]
+"41 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+[v _disp7segX2_init disp7segX2_init `(v  1 e 1 0 ]
+"57
+[v _disp7segX2 disp7segX2 `(v  1 e 1 0 ]
+"31 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"226 /opt/microchip/xc8/v1.45/include/pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S40 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"243
+[u S49 . 1 `S40 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES49  1 e 1 @6 ]
+[s S61 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"367
+[u S70 . 1 `S61 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES70  1 e 1 @8 ]
+"1476
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S19 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1617
+[u S28 . 1 `S19 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES28  1 e 1 @136 ]
+"3447
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"36 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+[v _b0Anterior b0Anterior `uc  1 e 1 0 ]
+"74
+[v _b1Anterior b1Anterior `uc  1 e 1 0 ]
+"36 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+[v _digitos7seg digitos7seg `[16]uc  1 e 16 0 ]
+"56
+[v _posicao posicao `uc  1 e 1 0 ]
+"31 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"33
+[v main@num num `uc  1 a 1 11 ]
+"50
+} 0
+"41 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+[v _disp7segX2_init disp7segX2_init `(v  1 e 1 0 ]
+{
+"54
+} 0
+"10 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/delay.c
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@t t `ui  1 p 2 0 ]
+"17
+} 0
+"57 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/disp7seg.c
+[v _disp7segX2 disp7segX2 `(v  1 e 1 0 ]
+{
+[v disp7segX2@num num `uc  1 a 1 wreg ]
+[v disp7segX2@num num `uc  1 a 1 wreg ]
+[v disp7segX2@num num `uc  1 a 1 4 ]
+"74
+} 0
+"6 /opt/microchip/xc8/v1.45/sources/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 1 ]
+[v ___awmod@counter counter `uc  1 a 1 0 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 9 ]
+[v ___awmod@dividend dividend `i  1 p 2 11 ]
+"35
+} 0
+"6 /opt/microchip/xc8/v1.45/sources/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
+"22 /home/josewrpereira/MPLABXProjects/P0112-bordaBotaoPulsador/P0112-bordaBotaoPulsador.X/botao.c
+[v _botao_init botao_init `(v  1 e 1 0 ]
+{
+"26
+} 0
+"75
+[v _b1_bordaSubida b1_bordaSubida `(uc  1 e 1 0 ]
+{
+"79
+[v b1_bordaSubida@aux aux `uc  1 a 1 1 ]
+"83
+} 0
+"46
+[v _b0_bordaDescida b0_bordaDescida `(uc  1 e 1 0 ]
+{
+"50
+[v b0_bordaDescida@aux aux `uc  1 a 1 1 ]
+"54
+} 0
